@@ -194,7 +194,8 @@ if __name__ == '__main__':
         print()
 
     print('Checking DRAT solution')
-    print('For n=8:',
-          'SAT' if verify_drat(encode_bst(8), bst_refutation) else 'UNSAT')
-    print('For n=9:',
-          'SAT' if verify_drat(encode_bst(9), bst_refutation) else 'UNSAT')
+    for n in range(3, 10 + 1):
+        print('For n={}:'.format(n),
+              'UNSAT'
+              if verify_drat(encode_bst(n), bst_refutation)
+              else 'not UNSAT')
