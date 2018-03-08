@@ -1,10 +1,15 @@
-Demonstration of the basics of delete - resoluation asymmetric tautology
-(DRAT) proof verification using the Boolean sum triples (BST) problem. This
-problem asks whether the set of numbers _{1, ..., n}_ can be divided into two
-subsets where neither subset contains the entire triple _(a, b, c)_ where _a=b+c_
-and _a<b<c_.
+Demonstration of the basics of delete - resoluation asymmetric tautology (DRAT)
+proof verification using [Schur's Theorem for
+r=2](https://proofwiki.org/wiki/Schur%27s_Theorem_%28Ramsey_Theory%29), which I
+naively originally called the Boolean sum triples (BST) problem. This problem
+asks whether the set of numbers _{1, ..., n}_ can be divided into two subsets
+where neither subset contains the entire triple _(a, b, c)_ where _a=b+c_ and
+_a<b<c_.
 
-See https://www.cs.utexas.edu/~marijn/ptn/#example
+You can read my blog post that this is supporting material to
+[here](https://ashgillman.github.io/2018/01/12/boolean-Pythagorean-triples.html).
+
+See also https://www.cs.utexas.edu/~marijn/ptn/#example
 
 [main.py](./main.py) contains the example.
 The output of this file is:

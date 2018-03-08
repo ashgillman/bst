@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Demonstration of the basics of delete - resoluation asymmetric tautology
-(DRAT) proof verification using the Boolean sum triples (BST) problem. This
-problem asks whether the set of numbers {1, ..., n} can be divided into two
-subsets where neither subset contains the entrire triple (a, b, c) where a=b+c
-and a<b<c.
+(DRAT) proof verification using Schur's Theorem for r=2, which I naively
+originally called the Boolean sum triples (BST) problem. This problem asks
+whether the set of numbers {1, ..., n} can be divided into two subsets where
+neither subset contains the entrire triple (a, b, c) where a=b+c and a<b<c.
 
 See https://www.cs.utexas.edu/~marijn/ptn/#example
+
 """
 
 import copy
